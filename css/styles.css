@@ -30,8 +30,18 @@ letter-spacing: 0.02em;
     margin-left: auto;
     margin-right: auto;
     width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     /* outline: 2px solid tomato; */
 
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -143,6 +153,8 @@ letter-spacing: 0.02em;
 .hero {
     text-align: center;
     background-color: #2E2F42;
+    padding-top:192px;
+    padding-bottom:192px;
 }
 
 
@@ -179,6 +191,7 @@ letter-spacing: 0.02em;
 .section {
    background-color: #FFFFFF; 
    padding-top: 120px;
+   padding-bottom: 120px;
   
    
 }
@@ -215,8 +228,7 @@ letter-spacing: 0.02em;
     background-color:#FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 12px;
-    padding-right: 12px;
+   
   
     
    
@@ -229,14 +241,6 @@ letter-spacing: 0.02em;
     gap: 24px;
 }
 
-/* Задаємо margin для <li> другої секції */
-.icon {
-    margin-top: 72px;
-
-}
-
-
-
 .presentation-title {
     font-weight: 600;
     font-size: 36px;
@@ -244,7 +248,7 @@ letter-spacing: 0.02em;
     line-height: 1.1;
     letter-spacing: 0.02em;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 72px;
     text-align: center;
 }
 
@@ -257,8 +261,8 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 120px;
     text-align: center;
+    margin-bottom: 72px;
    
 }
 
@@ -266,17 +270,28 @@ letter-spacing: 0.02em;
 .section-team {
     color: var(--title-text-color);
     background-color: #F4F4FD;
-    margin-top: 0;
+    margin-top:0;
     margin-bottom: 0;
-    padding-left: 12px;
-    padding-right: 12px;
-   
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 /* Список третьої секції */
 .third-section {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+}
+
+.icon {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
+
+.team-member {
+    margin-top: 32px;
+    
 }
 /* Список четвертої секції */
 .fourth-section {
@@ -288,6 +303,7 @@ letter-spacing: 0.02em;
 
 .filter {
     padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 /* Список четвертої секції */
@@ -297,19 +313,28 @@ letter-spacing: 0.02em;
     margin-top: 72px;
     gap: 24px;
     justify-content: center;
+    
 }
 
 .flex-element {
     margin-top: 48px;
 }
 
-.flex-element:last-child {
-    padding-bottom: 120px;
+.portfolio-card {
+    margin-top: 32px;
 }
+.stylized-paragraph {
+    margin-top: 0;
+    padding-bottom: 32px;
+}
+
 
 
 /* Нижня рамка карток в портфоліо */
 .frame {
+    display: block;
+    box-sizing: border-box;
+    border: 0.5px #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -390,7 +415,10 @@ letter-spacing: 0.02em;
     letter-spacing: 0.04em;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    padding: 8px 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
     border: 1px solid transparent;;
 }
 
