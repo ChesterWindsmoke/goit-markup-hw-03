@@ -193,7 +193,6 @@ header {
 
 
 .section {
-   background-color: #FFFFFF; 
    padding-top: 120px;
    padding-bottom: 120px;
   
@@ -229,7 +228,6 @@ header {
 
 .section-presentation {
     color:var(--title-text-color);
-    background-color:#FFFFFF;
     padding-bottom: 120px;
    
   
